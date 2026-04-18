@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    margin : 50px;
+    background-color: #89cff0;
+}
+.form-center {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background-color: #fffafa;
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+}
+h1 {
+    color: #00284e;
+    text-align: center;
+}
+a {
+    color: #e2f1ff;
+    text-decoration: none;
+}
+a[href="/pegawai/create"] {
+    padding: 10px 18px;
+    background-color: #00284e;
+    border-radius: 5px;
+    display: inline-flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: solid 1px #fffafa;
+}
+th {
+    background-color: #00284e;
+    font-weight: bold;
+    color: aliceblue;
+}
+tr {
+    background-color: #f2f2f2;
+    justify-content: center;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #00284e;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: #fe1515;
+    margin-top: 20px;
+}
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #07e019;
+}
